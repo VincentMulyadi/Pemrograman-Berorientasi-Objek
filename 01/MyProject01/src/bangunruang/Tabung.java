@@ -19,7 +19,7 @@ public class Tabung {
     }
     
     public void hitungLuasSelimut(){
-        double hasil = 2 * 3.14 * radius * tinggi;
+        double hasil = 2 * 3.14 * radius * tinggi + 2 * 3.14 * radius * radius;
         System.out.println("Luas selimut tabung: " + hasil);
     }
 }

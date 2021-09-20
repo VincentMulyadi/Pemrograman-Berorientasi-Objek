@@ -12,7 +12,6 @@ package bangunruang;
 public class Kerucut {
     public int radius;
     public int tinggi;
-    public int sisiMiring;
     
     public void hitungVol(){
         double hasil = 3.14 * radius * radius * tinggi / 3;
@@ -20,6 +19,7 @@ public class Kerucut {
     }
     
     public void hitungLuasSelimut(){
+        double sisiMiring = Math.sqrt(radius * radius + tinggi * tinggi);
         double hasil = 3.14 * radius * sisiMiring;
         System.out.println("Luas selimut kerucut: " + hasil);
     }
