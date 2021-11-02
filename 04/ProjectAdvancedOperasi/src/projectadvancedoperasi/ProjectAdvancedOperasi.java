@@ -16,7 +16,7 @@ public class ProjectAdvancedOperasi {
      */
     public static void main(String[] args) {
         Operasi p = new Operasi();
-        System.out.println(p.jumlahkan(3,4));
+        System.out.println(p.jumlahkan(p.jumlahkan(1,2),4));
         System.out.println(p.jumlahkan(4, 7, -9));
         System.out.println(p.jumlahkan(3.4, -0.002, 0.12313));
     }
